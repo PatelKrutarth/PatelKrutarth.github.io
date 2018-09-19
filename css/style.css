@@ -1,0 +1,438 @@
+
+@font-face {
+    font-family: 'latoregular';
+    src: url('../fonts/lato-regular-webfont.woff2') format('woff2'),
+         url('../fonts/lato-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'latobold';
+    src: url('../fonts/lato-bold-webfont.woff2') format('woff2'),
+         url('../fonts/lato-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+*, *:after, *:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+* {
+	outline: none;
+}
+html {
+	overflow-x: hidden;
+}
+body {
+	margin: 0px;
+	-webkit-text-size-adjust: none;
+	overflow: hidden;
+	font-family: 'latoregular';
+	letter-spacing: 1.5px;
+}
+header, footer, section, aside, nav, article {
+	display: block;
+}
+h1, h2, h3, h4, h5, h6, section, img, div {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+}
+ul, ol, li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+dl, dt, dd {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+}
+img {
+	border: none;
+}
+p {
+	margin: 0 0 0px 0;
+	padding: 0 0 0 0;
+}
+.clear {
+	clear: both;
+}
+a {
+	text-decoration: none;
+	cursor: pointer;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	transition: all 0.3s ease-out;
+}
+.brd-none {
+	border: 0px none !important;
+}
+::-webkit-input-placeholder {
+color: #8b8b8b;
+}
+:-moz-placeholder {
+/ Firefox 18- / color:#8b8b8b;
+}
+::-moz-placeholder {
+/ Firefox 19+ / color:#8b8b8b;
+}
+:-ms-input-placeholder {
+color:#8b8b8b;
+}
+input, textarea, select {
+	outline: none;
+	border-radius: 0px; /*-webkit-appearance: none; *//*	-webkit-appearance: none;
+	-moz-appearance:    none;
+	appearance:         none;	*/
+	color: #2c2c26;
+}
+table {
+	border-collapse: collapse;
+	margin: 0 0 0;
+	width: 100%;
+}
+/**************************HOME PAGE CSS********************************/
+.header-bg{
+	width: 100%;
+	float: left;
+	padding: 10px 0;
+	margin: 10px 0;
+	display: block;
+	background-color:#a9a9a9;	
+}
+.header-left{
+	width: 320px;
+	float: left;
+	padding: 0px;
+	margin: 0px 0;
+	display: block;
+}
+.header-left img{
+	width: 15px;
+	float: left;
+	padding: 0px 0px 0 0;
+	margin: 0px 10px 0px 0;
+	display: block;
+}
+.header-left span{
+	float: left;
+	padding: 0px;
+	margin: 0px 0;
+	display: block;
+	color:#000000;
+	font-family: 'latoregular';	
+	font-size:14px;
+}
+.header-right{
+	width: auto;
+	float: right;
+	padding: 0;
+	margin: 0px;
+	display: block;	
+}
+.header-right img{
+	width: 15px;
+	float: left;
+	padding: 0px 0px 0 0;
+	margin: 0px 10px 0px 0;
+	display: block;
+}
+.home-middle-main-area {
+	width: 100%;
+	float: left;
+	padding: 0px;
+	margin: 80px 0;
+	display: block;
+}
+.wrapper {
+	display: block;
+	margin: 0 auto;
+	max-width: 1200px;
+	padding: 0 15px;
+}
+.home-middle-inner-area {
+	width: 100%;
+	float: left;
+	padding: 0px;
+	margin: 0px;
+	display: block;
+}
+.term-bg-main-area{
+    width: 100%;
+    float: left;
+    margin: 0px 0;
+    padding: 0px;
+    display: block;
+}
+.menu-main-area{
+    width: 100%;
+    float: left;
+    margin: 15px 0;
+    padding: 10px;
+	background-color: #cdcdcd;
+    display: block;	
+}
+.menu-area{
+    width: 100%;
+    float: right;
+    margin: 0px 0;
+    padding: 0px;
+    display: block;	
+	text-align: center;
+}
+
+.menu-area a{
+    width: auto;
+    margin: 0px 10px;
+    padding: 0px;
+    display: inline-block;
+	font-family: 'latoregular';		
+	letter-spacing:0px;
+	font-size:14px;
+	color:#000000;
+	text-transform:uppercase;
+}
+.menu-area a:hover{
+	text-decoration:underline;
+}
+.term-inner-main-area {
+    width: 100%;
+    float: left;
+    margin: 10px 0;
+    padding: 20px;
+    display: block;
+    background-color: #ffffff;
+    box-shadow: 0px 5px 15px #a3a3a3;
+}
+.admin-details-main-area{
+    width: 100%;
+    float: left;
+    margin: 0px 0 0px;
+    padding: 0px;
+    display: block;
+}
+.admin-details-main-area img{
+    width: 200px;
+    float: left;
+    margin: 0px 20px 0 0;
+    padding: 0px;
+    display: block;
+}
+.admin-details-main-area h2{
+    width: auto;
+    margin: 0px 0 10px 0;
+    padding: 0px;
+    display: block;
+	font-family: 'latobold';		
+	letter-spacing:0px;
+	font-size:24px;
+	color:#000000;
+
+}
+.admin-details-main-area span{
+    width: auto;
+    margin: 0px 0 10px 0;
+    padding: 0px;
+    display: block;
+	font-family: 'latoregular';		
+	letter-spacing:0px;
+	font-size:16px;
+	color:#000000;
+
+}
+.admin-details-main-area p {
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    font-family: 'latoregular';
+    letter-spacing: 0px;
+    font-size: 14px;
+    color: #000000;
+    line-height: 24px;
+}
+.term-main-area{
+    width: 100%;
+    float: left;
+    margin: 0px;
+    padding:0px;
+    display: block;
+}
+.term-main-area h2 {
+    width: 100%;
+    float: left;
+    padding: 0 0 10px;
+    margin: 0 0 20px 0;
+    display: block;
+    font-family: 'latobold';
+    font-size: 24px;
+    color: #000000;
+    text-transform: uppercase;
+    background-image: url(../images/league-bdr.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+.term-main-area p {
+    width: 100%;
+    margin: 0 0 25px 0;
+    padding: 0px;
+    font-family: 'latoregular';
+    color: #000000;
+    font-size: 14px;
+    line-height: 26px;
+}
+.term-main-area a {
+    color: #15ab62;
+    text-decoration: underline;
+}
+.term-main-area a:hover {
+    color: #000000;
+}
+.term-main-area h3 {
+    width: 100%;
+    float: left;
+    padding: 0 0 0 15px;
+    margin: 0 0 20px;
+    font-family: 'latobold';
+    color: #000000;
+    font-size: 20px;
+    border-left: 4px solid #15ab62;
+}
+.term-main-area ol.bullet {
+    width: 100%;
+    float: left;
+    margin: 0px 0px 20px;
+    padding: 0 0 0 40px;
+    display: block;
+    list-style-type: none;
+}
+.term-main-area ol.bullet li {
+    width: auto;
+    margin: 0;
+    padding: 0 0 0 0;
+    font-family: 'latoregular';
+    color: #000000;
+    font-size: 14px;
+    line-height: 36px;
+    list-style: disc;
+}
+.term-main-area ol.number {
+    width: 100%;
+    float: left;
+    margin: 0px 0px 20px;
+    padding: 0 0 0 40px;
+    display: block;
+    list-style-type: none;
+}
+.term-main-area ol.number li {
+    width: auto;
+    margin: 0;
+    padding: 0 0 0 0;
+    font-family: 'latoregular';
+    color: #000000;
+    font-size: 16px;
+    line-height: 36px;
+    list-style: decimal;
+}
+.term-main-area ul.icon {
+    width: 100%;
+    float: left;
+    margin: 0px 0px 20px;
+    padding: 0;
+    display: block;
+    list-style-type: none;
+}
+.term-main-area ul.icon li {
+    width: auto;
+    margin: 0 0 0 10px;
+    padding: 0 0 0 25px;
+    font-family: 'latoregular';
+    color: #000000;
+    font-size: 16px;
+    line-height: 36px;
+    background-image: url(../images/right-icon-img.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.footer-copyright {
+	width: 100%;
+	float: left;
+	padding: 20px 10px;
+	margin: 0px;
+	display: block;
+	font-family: 'latoregular';
+	font-size: 14px;
+	color: #ffffff;
+	text-align: center;
+	background-color: #000000;
+}
+.footer-copyright a {
+color: #ffffff;
+
+}
+
+@media only screen and (max-width:568px){
+	.admin-details-main-area img{
+    width: 290px;
+    float: none;
+    margin: 0px auto;
+    padding: 0px;
+    display: block;
+}
+@media only screen and (max-width:414px){
+	.admin-details-main-area img{
+    width: 250px;
+}
+
+.menu-area a{
+    margin: 0px 2px;
+	font-size:12px;
+}
+
+.header-left{
+	width: 100%;
+	text-align: center;
+}
+.header-left img{
+	width: 15px;
+	float: none;
+	margin: 0px 5px 0px 0;
+	display: inline-block;
+}
+
+.header-left span{
+	float: none;
+	display: inline-block;
+	color:#000000;
+	font-family: 'latoregular';	
+	font-size:14px;
+}
+
+.header-right{
+	width: 100%;
+	padding: 0;
+	margin: 5px 0 0 0;
+	display: block;
+text-align: center;	
+}
+.header-right img{
+	width: 15px;
+	float: none;
+	margin: 0px 10px 0px 0;
+	display: inline-block;
+}
+}
+
+@media only screen and (max-width:320px){
+	.admin-details-main-area img{
+    width: 250px;
+}
+
+.menu-area a{
+    margin: 0px 2px;
+	font-size:12px;
+}
+}
