@@ -31,7 +31,7 @@
         <p> Machine Learning Lab <br />
             Kansas State University <br />
             Department of Computer Science <br />
-            2208B Engineering Hall <br />
+            2184 Engineering Hall <br />
             Manhattan, KS 66506, USA <br />
             kipatel@ksu.edu
         </p>
@@ -49,15 +49,12 @@
      </div>
     </div>
 </div>
+
       	<div class="term-main-area">
-        <h3>2016</h3>
-            <ol class="bullet">
-            	<li>Sujatha Das Gollapalli, Krutarth Patel, and Cornelia Caragea. "A Search/Crawl Framework for Automatically Acquiring Scientific Documents." CoRR, 2016. [<a href="https://arxiv.org/pdf/1604.05005v1.pdf" target="_blank">pdf</a>] [<a href="https://arxiv.org/abs/1604.05005" target="_blank">arXiv</a>]</li>
-            </ol>
-        <h3>2019</h3>
-            <ol class="bullet">
-            	<li>Krutarth Patel, and Cornelia Caragea. "Exploring Word Embeddings in CRF-based Keyphrase Extraction from Research Papers." K-CAP, 2019. [<a href="" target="_blank">ACM DL link</a>] [<a href="" target="_blank">pdf</a>]</li>
-            </ol>   
+        <h3>About me :</h3>
+            <p>I'm a PhD candidate at the <a href="https://www.cs.ksu.edu/" target="_blank">Kansas State University, Computer Science Department</a>. Before transferring to KSU, I completed my Master’s in Computer Science in Fall 2017 at <a href="https://computerscience.engineering.unt.edu/home" target="_blank">University of North Texas, Denton</a>. </p>
+            <p>I enjoy Information Retrieval and Machine Learning. My research focus is inline of Digital Libraries. It includes interesting problems like document classification, keyphrase extraction, homepage classification, etc. For these, I use different deep learning architectures along with traditional machine learning techniques. In free time, I like to play cricket, listen to divine instrumental music or try cooking.</p>
+
             
         </div>
         
